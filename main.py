@@ -6,15 +6,15 @@ class Calculator:
     def add(self, sk: float) -> float:
         return self.number + sk
 
-    def sub(self) -> float:
+    def sub(self, sk: float) -> float:
+        return self.number - sk
+
+    def div(self, sk: float) -> float:
+        return self.number / sk
+
+    def mul(self, sk: float) -> float:
         ...
 
-    def div(self) -> float:
-        ...
-
-    def mul(self) -> float:
-        ...
-
-    def calculate(self) -> float:
+    def calculate(self, sk: float) -> float:
         ...
         
